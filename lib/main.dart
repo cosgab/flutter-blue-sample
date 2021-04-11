@@ -69,7 +69,7 @@ class FindDevicesScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Find Devices'),
+        title: Text('Devices'),
       ),
       body: RefreshIndicator(
         onRefresh: () =>
